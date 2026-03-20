@@ -1,5 +1,3 @@
-import art
-
 def add(n1, n2):
     return n1 + n2
 
@@ -15,7 +13,6 @@ def div(n1, n2):
 functions = {"+": add, "-": sub, "*": mul, "/": div}
 cont = True
 
-print(art.logo)
 def calculator():
     number1 = float(input("Type a number: "))
 
