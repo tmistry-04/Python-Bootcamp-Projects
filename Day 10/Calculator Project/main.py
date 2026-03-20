@@ -15,8 +15,6 @@ def div(n1, n2):
 functions = {"+": add, "-": sub, "*": mul, "/": div}
 cont = True
 
-# print(functions["*"](4, 8))
-
 print(art.logo)
 def calculator():
     number1 = float(input("Type a number: "))
